@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  border: 1px solid black;
+  width: 100%;
+  list-style: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
