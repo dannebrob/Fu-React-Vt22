@@ -1,0 +1,15 @@
+.cart-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-end;
+}
+#cart-title {
+  color: blueviolet;
+  font-weight: 600;
+}
+#cart-count {
+  border-radius: 50%;
+  margin-left: 1rem;
+  margin-right: 3rem;
+}
