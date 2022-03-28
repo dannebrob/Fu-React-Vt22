@@ -1,6 +1,8 @@
+import "./SubmitButton.css";
+
 function SubmitButton() {
   return (
-    <div>
+    <div className="submit-btn">
       <button>Boka biljetter</button>
     </div>
   );
