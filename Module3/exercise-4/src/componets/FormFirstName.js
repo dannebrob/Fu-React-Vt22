@@ -1,8 +1,20 @@
-function FormFirstName() {
+function FormFirstName({ update }) {
+  let firstName = "";
+
+  function handleInputFirst(event) {
+    firstName = event.target.value;
+    update(firstName);
+    // console.log(firstName);
+  }
+
   return (
     <div>
       <p>Förnamn:</p>
-      <input type="text" placeHolder="Förnamn"></input>
+      <input
+        type="text"
+        placeholder="Förnamn"
+        onKeyUp={handleInputFirst}
+      ></input>
     </div>
   );
 }

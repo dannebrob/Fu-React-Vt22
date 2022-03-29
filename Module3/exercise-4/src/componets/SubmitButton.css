@@ -1,12 +1,11 @@
 .submit-btn {
   width: 100%;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .submit-btn button {
-  width: 10rem;
+  width: 90%;
   min-height: 3rem;
-  border: none;
   font-size: 1rem;
   font-weight: 800;
 }

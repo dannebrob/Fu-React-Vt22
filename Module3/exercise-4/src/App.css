@@ -4,6 +4,16 @@
 }
 
 .App {
-  display: flex;
   justify-content: center;
+}
+
+.booking-container {
+  background-color: rgb(241, 237, 237);
+  width: 60vw;
+  margin-top: 5rem;
+  margin-left: 4rem;
+}
+
+.flex {
+  display: flex;
 }

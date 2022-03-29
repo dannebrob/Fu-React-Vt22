@@ -1,8 +1,20 @@
-function FormTitle() {
+function FormTitle({ update }) {
+  let title = "";
+
+  function handleInputTitle(event) {
+    title = event.target.value;
+    update(title);
+  }
+
   return (
     <div>
       <p>Titel:</p>
-      <input type="text" placeHolder="Titel"></input>
+      <select onClick={handleInputTitle}>
+        <option>Mr.</option>
+        <option>Mrs.</option>
+        <option>Miss</option>
+        <option>Unspecific</option>
+      </select>
     </div>
   );
 }

@@ -1,0 +1,6 @@
+.radio-container {
+  display: flex;
+  height: 4rem;
+  align-items: center;
+  justify-content: space-evenly;
+}

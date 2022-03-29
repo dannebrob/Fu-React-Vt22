@@ -1,9 +1,15 @@
 import "./SubmitButton.css";
 
-function SubmitButton() {
+function SubmitButton({ show }) {
+  let ny = "";
+  function handleClick() {
+    console.log("Du klickade");
+    console.log(show());
+  }
+
   return (
     <div className="submit-btn">
-      <button>Boka biljetter</button>
+      <button onClick={handleClick}>Boka biljetter</button>
     </div>
   );
 }
